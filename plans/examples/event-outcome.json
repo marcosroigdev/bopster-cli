@@ -1,0 +1,11 @@
+{
+  "notes": "Example of a match: end_time is kick-off, and the sport sets how long to wait before resolving.",
+  "title": "Real Madrid beat Barcelona",
+  "category": "Sports",
+  "sports_match": "football",
+  "template": { "type": "event_outcome", "event": "Real Madrid beat Barcelona in La Liga" },
+  "source_url": "https://www.laliga.com/en-GB/laliga-easports/results",
+  "end_time": "2026-12-31T20:00:00Z",
+  "accept_terms": true,
+  "positions": { "yes": "5", "no": "5" }
+}

@@ -1,0 +1,11 @@
+{
+  "notes": "Example: the percentage is measured from the price when the market is created.",
+  "title": "ETH up 10% this week",
+  "category": "Crypto",
+  "template": { "type": "price_change", "asset": "ETH", "direction": "up", "percentage": "10" },
+  "source_url": "https://www.coingecko.com/en/coins/ethereum",
+  "end_time": "2026-12-31T18:00:00Z",
+  "resolution_delay_minutes": 30,
+  "accept_terms": true,
+  "positions": { "yes": "5", "no": "5" }
+}

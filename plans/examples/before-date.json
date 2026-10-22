@@ -1,0 +1,11 @@
+{
+  "notes": "Example: 'subject' and 'action' take 8 to 90 characters each, with the verb in its base form.",
+  "title": "Spot Solana ETF approved",
+  "category": "Crypto",
+  "template": { "type": "before_date", "subject": "A spot Solana ETF", "action": "be approved by the SEC" },
+  "source_url": "https://www.sec.gov/newsroom/press-releases",
+  "end_time": "2026-12-31T18:00:00Z",
+  "resolution_delay_minutes": 60,
+  "accept_terms": true,
+  "positions": { "yes": "5", "no": "5" }
+}

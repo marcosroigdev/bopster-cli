@@ -1,0 +1,25 @@
+{
+  "name": "bopster-cli",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Create Bopster markets, take positions and claim from the command line: the Bopster MCP prepares each transaction, this CLI checks it against the chain and signs it with your own key.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosroigdev/bopster-cli.git"
+  },
+  "homepage": "https://github.com/marcosroigdev/bopster-cli#readme",
+  "type": "module",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "bop": "node --env-file-if-exists=.env src/cli.js",
+    "test": "node --test test/*.test.js",
+    "e2e:fork": "node scripts/e2e-fork.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.31.0",
+    "viem": "2.57.4"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "notes": "Example: copy it to plans/, then set the date (20 minutes to 10 days from now) and the amounts.",
+  "title": "BTC above $150K on Dec 31",
+  "category": "Crypto",
+  "template": { "type": "price_threshold", "asset": "BTC", "direction": "above", "price": "150000" },
+  "source_url": "https://www.coingecko.com/en/coins/bitcoin",
+  "end_time": "2026-12-31T18:00:00Z",
+  "resolution_delay_minutes": 30,
+  "accept_terms": true,
+  "positions": { "yes": "5", "no": "5" }
+}

@@ -1,0 +1,11 @@
+{
+  "notes": "Example: two different tickers, up to 4 letters each.",
+  "title": "SOL outperforms ETH",
+  "category": "Crypto",
+  "template": { "type": "compare_assets", "asset_a": "SOL", "direction": "higher", "asset_b": "ETH" },
+  "source_url": "https://www.coingecko.com/",
+  "end_time": "2026-12-31T18:00:00Z",
+  "resolution_delay_minutes": 30,
+  "accept_terms": true,
+  "positions": { "yes": "5", "no": "5" }
+}
