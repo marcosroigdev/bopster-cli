@@ -20,6 +20,6 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.32.1",
-    "viem": "2.57.4"
+    "viem": "2.57.7"
   }
 }
